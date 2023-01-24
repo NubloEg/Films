@@ -1,0 +1,118 @@
+.box_mini {
+    margin-top: 3rem;
+    margin-left: 22rem;
+    position: absolute;
+
+    width: 551px;
+    height: 363px;
+}
+
+h1 {
+
+
+    width: 100%;
+    height: 92px;
+    margin-top: 57px;
+    font-family: 'Rationale';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 92px;
+
+
+    color: #FFFFFF;
+}
+
+.min_btn {
+    cursor: pointer;
+    
+    width: 99px;
+    height: 23px;
+
+    font-family: 'Rationale';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+
+
+    /* identical to box height */
+    
+
+    color: #000000;
+}
+
+.min_btn_act {
+    cursor: pointer;
+    width: 99px;
+    height: 23px;
+
+    font-family: 'Rationale';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+
+    /* identical to box height */
+   
+
+    color: #ffffff;
+}
+
+.line {
+    position: absolute;
+    width: 493px;
+    height: 1px;
+
+    background: #000000;
+}
+
+.span {
+    margin-top: 13px;
+    width: 551px;
+    height: 175px;
+
+    font-family: 'Rationale';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+
+    /* or 167% */
+
+    color: #FFFFFF;
+
+}
+
+button {
+    margin-top: 10px;
+    
+    width: 220px;
+    height: 60px;
+
+    background: #FFFFFF;
+    border-radius: 80px;
+    border: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #e4e4e4;
+}
+
+
+.btn_row{
+    display: grid;
+    grid-template-columns: 100px 75px 80px 100px
+}
